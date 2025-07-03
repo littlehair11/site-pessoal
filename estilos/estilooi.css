@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header .logo {
+    font-family: 'Cursive';
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logo-if {
+    height: 40px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  aside {
+    background-color: #a5b6d8;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+  
+  aside button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  main {
+    flex-grow: 1;
+    background-color: #fdfde4;
+    padding: 250px;
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 200px;
+    border-radius: 300px; /*deixar arrendodado*/
+    margin-bottom: 15px;
+  }
+  
+  .quadro {
+    background-image: url('fundo-papel.png'); /* se quiser o padrão decorativo */
+    border: 2px solid orange;
+    padding: 150px;
+    margin: 10px auto;
+    width: 300px;
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+  

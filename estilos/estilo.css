@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-image: url(../imagens/logoSerra.png);
+    background-color: #7FFFD4 ;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50px;
+    background-attachment: fixed;
+
+}
+h1{
+    font-family: comic-sans, cursive; text-align: center;
+    color: #cc3ac0;
+}
+
+h2{
+    color: #9932CC;
+    font-family: comic-sans, cursive; text-align: center;
+}
+
+p{
+    background-color: rgb(54, 124, 190);
+    font-family: monospace, courier;
+}
+
+.TextoBorda {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0.2);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-image: url("../imagens/watercolor.png");
+    background-color: #000000;
+}
+.avatar {
+    height: 200px; width: 200px;
+}
+
+a {
+    text-decoration: nome;
+    color: #9932CC;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: comic-sans, cursive
+    
+}
+a:hover {
+    color: #070707;
+}
+a:active {
+    color: rgb(255, 0, 157);
+}

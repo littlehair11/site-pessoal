@@ -1,0 +1,41 @@
+h1 {
+    font-family: Comic Sans MS, cursive;
+    text-align: center;
+    color: #5c8a72; /* Verde suave */
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: #444444; /* Cinza escuro neutro */
+}
+
+div {
+    background-image: url("../imagens/watercolor.png");
+    border: 2px solid #a3c4bc; /* Verde-água claro */
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.botao {
+    border: 2px solid #a3c4bc;
+    border-radius: 60px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 80px;
+    background-color: #e0f2f1; /* Verde pastel claro */
+    color: #2c786c;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    font-family: Comic Sans MS, cursive;
+    text-align: center;
+    color: #845ec2; /* Roxo alegre */
+    text-decoration: none;
+}
