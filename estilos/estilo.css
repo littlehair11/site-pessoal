@@ -10,11 +10,11 @@ body{
 }
 h1{
     font-family: comic-sans, cursive; text-align: center;
-    color: #cc3ac0;
+    color: #ffffff;
 }
 
 h2{
-    color: #9932CC;
+    color: #ffffff;
     font-family: comic-sans, cursive; text-align: center;
 }
 
@@ -24,13 +24,13 @@ p{
 }
 
 .TextoBorda {
-    border: 2px solid #ccc;
+    border: 2px solid #1d3ceb;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0,0,0.2);
     padding: 15px;
     margin: 20px auto;
     max-width: 600px;
-    background-image: url("../imagens/watercolor.png");
+    background-image: url("../imagens/webbdark.png");
     background-color: #000000;
 }
 .avatar {
@@ -39,7 +39,7 @@ p{
 
 a {
     text-decoration: nome;
-    color: #9932CC;
+    color: #b10707;
     font-weight: bold;
     transition: 0.3s;
     font-family: comic-sans, cursive
