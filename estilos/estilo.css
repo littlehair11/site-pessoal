@@ -39,7 +39,8 @@ aside {
     width: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: start;  
+    justify-content: start;
+    text-align: center;  
     gap: 30px;                
     min-height: 100%;
 }
@@ -67,6 +68,7 @@ main {
 
 section {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 section h2 {
