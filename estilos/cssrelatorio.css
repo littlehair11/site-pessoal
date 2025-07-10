@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.titulo {
+    background-color: #3b3f42;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    width: 200px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-bottom: 10px;
+}
+
+.radio-group input,
+.checkbox-group input {
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+.buttons input {
+    margin-right: 10px;
+    padding: 5px 12px;
+}
+
+.status-opcoes {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.status-opcoes strong {
+    display: block;
+    margin-top: 5px;
+}
+
+.enviar {
+    color: red;
+    float: right;
+    margin-top: 15px;
+}
